@@ -1,0 +1,53 @@
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/about/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/projects/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/contact/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/resume/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/services/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
+
+// app/testimonials/page.tsx
+import { NextRouteButton } from "@/components/next-route-button"
+// Existing code here
+</GlassPanel>
+<div className="mt-6 flex justify-end">
+  <NextRouteButton />
+</div>
