@@ -4,6 +4,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { Github, Instagram, Twitter, Mail } from "lucide-react"
 import { FuturisticBg, GlassPanel } from "@/components/glass"
+import {SiUpwork} from 'react-icons/si'
+import { Briefcase } from "lucide-react"
 export const metadata: Metadata = {
   title: "About – Emmanuel Ayanfeoluwa",
   description:
@@ -57,14 +59,20 @@ export default function AboutPage() {
                 <Mail className="h-4 w-4  " />
                 Contact
               </Link>
-              <Social href="https://twitter.com/" label="Twitter">
+              <Social href="https://x.com/emmy_tweg" label="Twitter">
                 <Twitter className="h-5 w-5 text-neutral-600 dark:text-neutral-300"  />
               </Social>
-              <Social href="https://instagram.com/" label="Instagram">
+              <Social href="https://instagram.com/_twegx" label="Instagram">
                 <Instagram className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
               </Social>
-              <Social href="https://github.com/" label="GitHub">
+              <Social href="https://github.com/Emmytweg" label="GitHub">
                 <Github className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
+              </Social>
+              <Social href="https://www.upwork.com/freelancers/~0181316f16e2f72b6c?mp_source=share" label="Upwork">
+                <SiUpwork className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
+              </Social>
+              <Social href="https://contra.com/wifi_wealth_gepbpxdn?referralExperimentNid=SOCIAL_REFERRAL_PROGRAM&referrerUsername=wifi_wealth_gepbpxdn" label="Contra">
+                <Briefcase className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
               </Social>
             </div>
           </div>

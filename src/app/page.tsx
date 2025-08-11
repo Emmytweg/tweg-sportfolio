@@ -3,9 +3,9 @@
 import { useCallback, useEffect, useMemo, useState, type CSSProperties } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { motion } from "framer-motion"
 import { Home, User, Moon, FolderGit2, Mail, FileText, Wrench, Quote, type LucideIcon } from "lucide-react"
 import { FuturisticBg, GlassPanel } from "@/components/glass"
+import { motion } from 'framer-motion';
 
 type Metric = {
   id: "home" | "aboutMe" | "projects" | "contact" | "resume" | "services" | "testimonials" | "darkMode"

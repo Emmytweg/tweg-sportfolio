@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Contact TWEG"
+  title: "Contact TWEG",
   description: "Meet me.."
 }
 
